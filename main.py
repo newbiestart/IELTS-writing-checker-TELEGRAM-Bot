@@ -38,13 +38,11 @@ ielts_check_kb = ReplyKeyboardMarkup(
     resize_keyboard=True
 )
 
-# --- Subscription Check Middleware (AIogram 3.x style) ---
 @router.message.middleware()
 async def subscription_check(handler, event, data):
     message = event
     user_id = message.from_user.id
 
-    # Allow specific commands to bypass the check
     if message.text in ["/start", "IELTS check", "Back"]:
         return await handler(event, data)
 
@@ -82,9 +80,8 @@ async def back_to_main_menu(message: types.Message, state: FSMContext):
     await state.clear()
     await message.answer("Returning to the main menu.", reply_markup=main_menu_kb)
 
-# --- Task 1 Flow ---
 @router.message(F.text == "Task 1")
-# --- Task 1 Flow ---
+
 @router.message(F.text == "Task 1")
 async def task1_start(message: types.Message, state: FSMContext):
     await state.set_state(IELTSStates.task1_image)
@@ -140,7 +137,7 @@ async def task2_receive_essay(message: types.Message, state: FSMContext):
     except Exception as e:
         await message.answer(f"An error occurred during evaluation: {e}")
 
-# --- Gemini API Call Function ---
+
 async def evaluate_essay_with_gemini(bot: Bot, photo_file_id: str, essay: str, is_task1: bool, topic: str = None):
     url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
     headers = {
