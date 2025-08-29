@@ -27,11 +27,11 @@ The bot acts like a **real IELTS examiner**, providing detailed feedback and ban
 ## 📂 Project Structure
 
 
-bot/
-├── main.py # Main bot logic
-├── config.py # Config loader
-├── .env # Environment variables (not shared)
-└── requirements.txt # Project dependencies
+- **bot/**
+- **├── main.py # Main bot logic**
+- **├── config.py # Config loader**
+- **├── .env # Environment variables (not shared)**
+- **└── requirements.txt # Project dependencies**
 
 
 ---
