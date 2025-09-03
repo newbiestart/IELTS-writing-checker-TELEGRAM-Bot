@@ -55,9 +55,9 @@ pip install -r requirements.txt
 
 Create a .env file in the root directory and add your credentials:
 
-BOT_TOKEN=your_telegram_bot_token
-GEMINI_API_KEY=your_gemini_api_key
-CHANNEL_USERNAME=@IELTS_checker
+- ** BOT_TOKEN=your_telegram_bot_token
+- ** GEMINI_API_KEY=your_gemini_api_key
+- ** CHANNEL_USERNAME=@IELTS_checker
 
 ## 5️⃣ Run the Bot
 python main.py
