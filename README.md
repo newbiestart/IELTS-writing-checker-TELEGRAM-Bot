@@ -40,8 +40,8 @@ The bot acts like a **real IELTS examiner**, providing detailed feedback and ban
 
 ### 1️⃣ Clone the Repository
 
-- ** git clone https://github.com/yourusername/ielts-writing-bot.git
-- ** cd ielts-writing-bot
+- ** git clone https://github.com/yourusername/ielts-writing-bot.git**
+- ** cd ielts-writing-bot**
 
 ##  ️⃣ Create a Virtual Environment
 python3 -m venv venv
@@ -55,9 +55,9 @@ pip install -r requirements.txt
 
 Create a .env file in the root directory and add your credentials:
 
-- ** BOT_TOKEN=your_telegram_bot_token
-- ** GEMINI_API_KEY=your_gemini_api_key
-- ** CHANNEL_USERNAME=@IELTS_checker
+- BOT_TOKEN=your_telegram_bot_token
+- GEMINI_API_KEY=your_gemini_api_key
+- CHANNEL_USERNAME=@IELTS_checker
 
 ## 5️⃣ Run the Bot
 python main.py
