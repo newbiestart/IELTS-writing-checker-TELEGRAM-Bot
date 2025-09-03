@@ -40,8 +40,8 @@ The bot acts like a **real IELTS examiner**, providing detailed feedback and ban
 
 ### 1️⃣ Clone the Repository
 
-- ** git clone https://github.com/yourusername/ielts-writing-bot.git**
-- ** cd ielts-writing-bot**
+- ** git clone https://github.com/yourusername/ielts-writing-bot.git **
+- ** cd ielts-writing-bot **
 
 ##  ️⃣ Create a Virtual Environment
 python3 -m venv venv
