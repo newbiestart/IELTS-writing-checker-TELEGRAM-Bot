@@ -39,19 +39,19 @@ The bot acts like a **real IELTS examiner**, providing detailed feedback and ban
 ## 🔑 Setup Instructions
 
 ### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/ielts-writing-bot.git
-cd ielts-writing-bot
 
-2️⃣ Create a Virtual Environment
+- ** git clone https://github.com/yourusername/ielts-writing-bot.git
+- ** cd ielts-writing-bot
+
+##  ️⃣ Create a Virtual Environment
 python3 -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
 
-3️⃣ Install Dependencies
+##  3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Create .env File
+##  4️⃣ Create .env File
 
 Create a .env file in the root directory and add your credentials:
 
@@ -59,10 +59,12 @@ BOT_TOKEN=your_telegram_bot_token
 GEMINI_API_KEY=your_gemini_api_key
 CHANNEL_USERNAME=@IELTS_checker
 
-5️⃣ Run the Bot
+## 5️⃣ Run the Bot
 python main.py
 
-🤖 How to Use
+---
+
+## 🤖 How to Use
 
 Start the bot with /start.
 
@@ -78,7 +80,9 @@ The bot will analyze and score your writing using Gemini AI.
 
 If you're not subscribed to the Telegram channel, you'll be prompted to join.
 
-🛠️ Requirements
+---
+
+## 🛠️ Requirements
 
 Python 3.10+
 
@@ -88,7 +92,9 @@ A valid Telegram bot token (get from BotFather
 A Gemini API key (get from Google AI Studio
 )
 
-📌 Roadmap
+---
+
+## 📌 Roadmap
 
  Add conversation history storage (SQLite/Firestore)
 
@@ -98,7 +104,9 @@ A Gemini API key (get from Google AI Studio
 
  Deploy to a server (Heroku, Render, or VPS)
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
 If you’d like to add features or fix bugs:
@@ -113,14 +121,18 @@ Push to the branch (git push origin feature/YourFeature)
 
 Open a Pull Request
 
-📜 License
+---
+
+## 📜 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 
 Azamatjon
 Passionate about technology, AI, and education.
 
-Telegram: @IELTS_checker
+## Telegram: @IELTS_checker
