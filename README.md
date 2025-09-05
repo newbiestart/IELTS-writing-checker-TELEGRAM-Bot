@@ -78,7 +78,7 @@ For Task 2: Send a topic and your essay.
 
 The bot will analyze and score your writing using Gemini AI.
 
-If you're not subscribed to the Telegram channel, you'll be prompted to join.
+If you're not subscribed to the Telegram channel, you'll be prompted to join
 
 ---
 
